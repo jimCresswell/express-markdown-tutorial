@@ -3,11 +3,22 @@
   <head>
     <title>Realtime Markdown Editor</title>
 
+    <!-- VENDOR -->
+    <link rel="stylesheet" href="css/normalize.css">
     <!-- Bootstrap styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- ShowdownJS https://github.com/showdownjs/showdown -->
+    <script async src="https://cdn.rawgit.com/showdownjs/showdown/1.0.2/dist/showdown.min.js"></script>
+
+    <!-- HOME GROWN -->
+    <link rel="stylesheet" href="css/main.css">
+    <script async src="javascript/main.js"></script>
   </head>
 
   <body class="container-fluid">
-    <main>Hello World</main>
+    <main class="row">
+      <textarea class="col-md-6 col-xs-12 full-height" id="pad">Write your text here..</textarea>
+      <section class="col-md-6 col-xs-12 full-height" id="markdown"></section>
+    </main>
   </body>
 </html>

@@ -1,0 +1,20 @@
+html, body, main, .full-height {
+  height: 100%;
+}
+
+#pad{
+  display: inline-block;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  background-color: red;
+}
+
+#markdown {
+  display: inline-block;
+  overflow: auto;
+  border-left: 1px solid black;
+  background-color: green;
+}
