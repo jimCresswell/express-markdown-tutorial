@@ -1,0 +1,28 @@
+{
+  "name": "express-markdown-tutorial",
+  "version": "0.0.1",
+  "description": "Following a tutorial for an express based realtime, collaborative markdown editor https://scotch.io/tutorials/building-a-real-time-markdown-viewer ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimCresswell/express-markdown-tutorial.git"
+  },
+  "author": "jimCresswell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimCresswell/express-markdown-tutorial/issues"
+  },
+  "homepage": "https://github.com/jimCresswell/express-markdown-tutorial#readme",
+  "dependencies": {
+    "ejs": "^2.3.2",
+    "express": "^4.13.0",
+    "use-strict": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.0"
+  }
+}
